@@ -1,0 +1,53 @@
+section div {
+  width: 49.5%;
+  display: inline-block;
+  background: red;
+  overflow: hidden;
+  vertical-align: top;
+}
+section h2, section p {
+  width: 75%;
+  margin: 0 auto 0 17%;
+}
+section:nth-child(odd) h2,
+section:nth-child(odd) p {
+  width: 85%;
+}
+section h2, .bottom_block h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  line-height: 40px;
+  margin-top: 140px;
+}
+section p, .bottom_block p {
+  font-size: 26px;
+  line-height: 36px;
+}
+section div:nth-child(even) h2,
+section div:nth-child(even) p,
+section div:nth-child(even) img {
+  margin-left: 50px;
+}
+section img {
+  margin: 60px 0 0 22px;;
+}
+
+.bottom_block {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.bottom_block a {
+  text-decoration: none;
+  border: 1px solid #888;
+  font-size: 18px;
+  padding: 16px 44px;
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.btn_black {
+  background: black;
+  color: white;
+}
