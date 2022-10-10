@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>About</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8" />
+    <title>О проекте</title>
+    <link rel="stylesheet" href="css/style.css" />
     <style media="screen">
       html {
         background: grey;
@@ -11,67 +11,83 @@
         height: 100%;
       }
       body {
+        height: 3252px;
         width: 1440px;
         background: white;
         display: block;
-        height: 3253px;
-        margin: 0 auto;
         position: relative;
+        margin: 0 auto;
       }
       body::after {
-        background: url(images/1440.jpg);
         position: absolute;
         top: 0;
         left: 0;
-        content: '';
-        width: 100%;
+        background: url(images/1440.jpg);
+        opacity: 0.2;
         height: 100%;
-        opacity: .2;
+        width: 100%;
+        content: "";
       }
     </style>
   </head>
   <body>
-    <!-- шапка сайта -->
     <div class="menubar">
-      <a href="index.html"><img src="images/logo.svg" alt=""></a>
-      <a href="about.html">About</a>
+      <a href="index.html"><img src="images/logo.svg" alt="" /></a>
+      <a href="about.html">О проекте</a>
     </div>
-    <!-- блоки -->
     <section>
       <div>
-        <h2>Наглядный пример, <br> чтобы учиться веб-вёрстке</h2>
-        <p>Разработан для изучения основ веб-вёрстки, языка гипертекстовой разметки HTML и каскадных таблиц стилез CSS</p>
+        <h2>Наглядный пример,<br />чтобы учиться веб-вёрстке</h2>
+        <p>
+          Разработан для изучения основ веб-вёрстки, <br />
+          языка гипертекстовой разметки HTML <br />
+          и каскадных таблиц стилей CSS
+        </p>
       </div>
       <div>
-        <img src="images/about1.png" alt="">
+        <img src="images/about1.png" alt="" />
       </div>
     </section>
-
     <section>
       <div>
-        <img src="images/about2.png" alt="">
+        <img src="images/about2.png" alt="" />
       </div>
       <div>
-        <h2>Наглядный пример, <br> чтобы учиться веб-вёрстке</h2>
-        <p>Разработан для изучения основ веб-вёрстки, языка гипертекстовой разметки HTML и каскадных таблиц стилез CSS</p>
+        <h2>
+          С нуля до первого сайта <br />под компьютеры, телефоны <br />и
+          планшеты
+        </h2>
+        <p>
+          Чтобы начать изучать вёрстку на этом этапе, не требуется каких-то
+          специальных знаний, кроме базового умения пользоваться компьютером
+        </p>
       </div>
     </section>
-
     <section>
       <div>
-        <h2>Наглядный пример, <br> чтобы учиться веб-вёрстке</h2>
-        <p>Разработан для изучения основ веб-вёрстки, языка гипертекстовой разметки HTML и каскадных таблиц стилез CSS</p>
+        <h2>Реальный проект, реальный рабочий процесс</h2>
+        <p>
+          Обучение приложено к работе в реальной жизни, работа разбита на этапы
+          от типографики, создания меню и использования эффектов, до адаптации
+          под мобильные устройства и использования JavaScript скриптов
+        </p>
       </div>
       <div>
-        <img src="images/about3.png" alt="">
+        <img src="images/about3.png" alt="" />
       </div>
     </section>
-    <hr>
-    <div class="bottom_block">
-      <h2>Наглядный пример, чтобы учиться веб-вёрстке</h2>
-      <p>Разработан для изучения основ веб-вёрстки, языка гипертекстовой разметки HTML и каскадных таблиц стилез CSS</p>
-      <a href="https://github.com/annkomkova/wikimedium_b22ds08">Исходный код Github]</a>
-      <a class="btn_black" href="https://design.hse.ru/ba/programming">Курс в Школе Дизайна</a>
-    </div>
+    <hr />
+    <section class="bottom_block">
+      <h2>Возможность самостоятельного и курируемого обучения</h2>
+      <p>
+        Вы можете обучиться самостоятельно по исходному коду проекта,
+        выложенному на GitHub, или записаться на курс "Основы веб-вёрстки" в
+        Школе Дизайна НИУ ВШЭ
+      </p>
+      <a href="">Исходный код на GitHub</a>
+      <a class="black_btn" href="https://design.hse.ru/ba/programming"
+        >Курс в Школе Дизайна</a
+      >
+    </section>
   </body>
 </html>
